@@ -1,0 +1,58 @@
+@Tokui-js ➜ /workspaces/codespaces-blank $ cd ..
+@Tokui-js ➜ /workspaces $ ls workspaces
+ls: cannot access 'workspaces': No such file or directory
+@Tokui-js ➜ /workspaces $ ls
+codespaces-blank
+@Tokui-js ➜ /workspaces $ ls -l
+total 4
+drwxrwxrwx+ 2 codespace root 4096 Feb 11 20:11 codespaces-blank
+@Tokui-js ➜ /workspaces $ ls -a
+.  ..  .codespaces  .oryx  codespaces-blank
+@Tokui-js ➜ /workspaces $ pwd
+/workspaces
+@Tokui-js ➜ /workspaces $ cd codespaces-blank
+@Tokui-js ➜ /workspaces/codespaces-blank $ cd ..
+@Tokui-js ➜ /workspaces $ ls
+codespaces-blank
+@Tokui-js ➜ /workspaces $ cd ..
+@Tokui-js ➜ / $ ls
+bin  boot  dev  etc  go  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var  vscode  workspaces
+@Tokui-js ➜ / $ cd lib
+@Tokui-js ➜ /lib $ ls
+X11             dbus-1.0          git-core       libgdiplus.so        modules-load.d        python3.8            sysusers.d      tmpfiles.d
+apt             debug             gnupg          libgdiplus.so.0      openssh               python3.9            tc              udev
+bfd-plugins     dpkg              gnupg2         libgdiplus.so.0.0.0  os-release            sasl2                tcl8.6          valgrind
+binfmt-support  emacsen-common    gold-ld        llvm-10              packagekit            sftp-server          tclConfig.sh    x86_64-linux-gnu
+binfmt.d        environment.d     groff          locale               pkg-config.multiarch  software-properties  tclooConfig.sh
+clang           file              init           lsb                  pkgconfig             ssl                  tcltk
+cmake           gcc               kernel         man-db               policykit-1           sudo                 terminfo
+compat-ld       gettext           ld-linux.so.2  mime                 python2.7             sysctl.d             tk8.6
+cpp             girepository-1.0  libgcc_s.so.1  modprobe.d           python3               systemd              tkConfig.sh
+@Tokui-js ➜ /lib $ cd file
+@Tokui-js ➜ /lib/file $ cd ..
+@Tokui-js ➜ /lib $ cd ..
+@Tokui-js ➜ / $ cd ..
+@Tokui-js ➜ / $ pwd
+/
+@Tokui-js ➜ / $ mkdir icecream
+mkdir: cannot create directory ‘icecream’: Permission denied
+@Tokui-js ➜ / $ history
+    1  cd ..
+    2  ls workspaces
+    3  ls
+    4  ls -l
+    5  ls -a
+    6  pwd
+    7  cd codespaces-blank
+    8  cd ..
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd lib
+   13  ls
+   14  cd file
+   15  cd ..
+   16  pwd
+   17  mkdir icecream
+   18  history
+@Tokui-js ➜ / $ 
